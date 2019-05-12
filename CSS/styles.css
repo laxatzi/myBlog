@@ -66,22 +66,25 @@ small {
 }
 
 /* NAV */
-.main-search,
-.mirror-search {
+.input-group {
+  padding: 0;
+  margin: 0;
+}
+#main-search,
+#mirror-search {
   margin: 0;
 }
 
-.main-search {
+#main-search {
   padding: 5px;
   line-height: 3rem;
   font-size: 2em;
-
 }
-.main-mirror {
+#mirror-search {
   /* img replacement */
-  text-indent: -99999px;
+  /* text-indent: -99999px; */
   width: 3rem;
   height: 3rem;
   display: block;
-  background-image: url(../IMG/search-50.png) 0 0 no-repeat;
+  background-image: white url(../IMG/search-50.png) 0 0 no-repeat;
 }
