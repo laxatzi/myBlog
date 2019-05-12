@@ -81,7 +81,7 @@ small {
   /* img replacement */
   text-indent: -99999px;
   width: 3rem;
-  hight: 3rem;
+  height: 3rem;
   display: block;
-  backgroun-image: 
+  background-image: url(../IMG/search-50.png);
 }
