@@ -64,3 +64,24 @@ small {
   vertical-align: middle;
   padding: 10px;
 }
+
+/* NAV */
+.main-search,
+.mirror-search {
+  margin: 0;
+}
+
+.main-search {
+  padding: 5px;
+  line-height: 3rem;
+  font-size: 2em;
+
+}
+.main-mirror {
+  /* img replacement */
+  text-indent: -99999px;
+  width: 3rem;
+  hight: 3rem;
+  display: block;
+  backgroun-image: 
+}
