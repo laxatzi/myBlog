@@ -155,6 +155,16 @@ input[type="search"],
 }
 .toggler {
   display: none;
+  font-size: 4rem;
+  padding: 5px 0;
+  border: 2px solid var(--colorBgSecond);
+  margin: 5px 20px;
+  color: var(--colorSecond);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 @media screen and (max-width: 935px) {
@@ -194,8 +204,6 @@ input[type="search"],
     align-items: center;
     justify-content: center;
   }
-  
-
 }
 
 
