@@ -1,11 +1,10 @@
 
 :root {
-   --docSecond: rgb(69, 70, 75);
-   --docMain: rgb(0,0,0);
-   --docBgMain:  #eee;
-   --docBgSecond: #ddd;
-   --docDistinct: #F1C40F;
-   --docDistinctSec: #c29d09;
+   --colorSecond: #666;
+   --colorMain: rgb(0,0,0);
+   --colorBgMain:  #fff;
+   --colorBgSecond: #F0F0F0;
+   --colorDistinct: #F47E00;
  }
  
  html {
@@ -69,6 +68,7 @@ small {
 .input-group {
   padding: 0;
   margin: 0;
+  display: flex;
 }
 #main-search,
 #mirror-search {
@@ -85,8 +85,13 @@ small {
  text-indent: -99999px;
   width: 3rem;
   height: 3rem;
-  display: block;
   background: white url(../IMG/search-50.png) no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 5px;
 }
+
+#navbar  {
+  border: 1px solid blue;
+}
+
