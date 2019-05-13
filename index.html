@@ -15,7 +15,9 @@
 
 <body>
   <div class="container">
-     <button class="toggle-btn" type="button" role="button"><i class="fas fa-bars"></i></button>
+    <div class="toggler" >
+      <i onclick="toggleFunction()" class="fas fa-bars"></i>
+    </div>
 <!-- Navbar   -->
     <nav id="navbar">
       <div class="nav-menu">
@@ -56,5 +58,15 @@
       </div>
     </nav>
   </div>
+  <script>
+      function toggleFunction() {
+        let navbar = document.getElementById("navbar");
+        if (navbar.style.display === "none") {
+          navbar.style.display = "block";
+        } else {
+          navbar.style.display = "none";
+        }
+      } 
+  </script>
 </body>
 </html>

@@ -153,7 +153,7 @@ input[type="search"],
   border: transparent;
 
 }
-.show-menu {
+.toggler {
   display: none;
 }
 
@@ -189,14 +189,13 @@ input[type="search"],
     justify-content: center;
     align-items: center;
   }
-  .show-menu {
+  .toggler {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  input[type=checkbox]:checked ~ #navbar{
-  display: flex;
-}
+  
+
 }
 
 
