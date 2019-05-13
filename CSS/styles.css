@@ -90,7 +90,6 @@ small {
   }
 
   .nav-menu a {
-    border: 1px solid red;
     padding: 0;
     margin-right: 10px;
     font-size: 1.65rem;
@@ -104,6 +103,9 @@ small {
     padding: 1rem 0;
     margin: 0;
     border-right: 1px solid var(--colorBgSecond);
+    display: flex;
+    align-items: center;
+    justify-content: end;
   }
   .nav-social ul{
     display: flex;
@@ -112,7 +114,6 @@ small {
     margin: 0;
   }
   .nav-social a {
-    border: 1px solid red;
     padding: 0;
     margin: 0 5px;
     color: var(--colorMain);
@@ -135,6 +136,25 @@ small {
   flex: 1;
   align-items: center;
   justify-content: center;
+}
+input[type="search"] {
+  border: transparent;
+  font-style: oblique;
+  font-size: 1.4rem;
+}
+input[type="search"],
+.btn-search i
+ {
+  padding: 5px;
+  margin: 0;
+  background-color: var(--colorBgMain);
+}
+.btn-search {
+  margin: 0;
+  background-color: var(--colorBgMain);
+  padding: 2px;
+  border: transparent;
+
 }
  /*
 .input-group {
