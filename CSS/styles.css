@@ -189,6 +189,11 @@ input[type="search"],
     justify-content: center;
     align-items: center;
   }
+  .show-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 
