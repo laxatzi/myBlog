@@ -69,19 +69,34 @@ small {
 #navbar  {
   border: 1px solid blue;
   display: flex;
+  padding: 0;
+  margin: 0;
+}
+.nav-menu {
+  flex: 4;
 }
 .nav-menu ul{
   display: flex;
 }
+.nav-menu a {
+  border: 1px solid red;
+}
+.nav-social {
+  flex: 1;
+}
 .nav-social ul{
   display: flex;
+  flex: 1;
 }
-
+.nav-social a {
+  border: 1px solid red;
+}
 .input-group {
   padding: 0;
   margin: 0;
   display: flex;
-}
+  flex: 1;
+/* }
 #main-search,
 #mirror-search {
   margin: 0;
@@ -90,21 +105,19 @@ small {
 }
 
 #main-search {
-  line-height: 2rem;
-  font-size: 2em;
+    font-size: 2rem;
   border-right: transparent;
 
 }
 #mirror-search {
-  /* img replacement */
+  /* img replacement
  text-indent: -99999px;
-  width: 3rem;
-  line-height: 2rem;
   background: white url(../IMG/search-50.png) no-repeat;
   background-size: contain;
   background-position: center;
   border-left: transparent;
-}
+  font-size: 2rem;
+} */
 
 
 
