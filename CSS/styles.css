@@ -65,6 +65,18 @@ small {
 }
 
 /* NAV */
+
+#navbar  {
+  border: 1px solid blue;
+  display: flex;
+}
+.nav-menu ul{
+  display: flex;
+}
+.nav-social ul{
+  display: flex;
+}
+
 .input-group {
   padding: 0;
   margin: 0;
@@ -78,7 +90,7 @@ small {
 }
 
 #main-search {
-  line-height: 3rem;
+  line-height: 2rem;
   font-size: 2em;
   border-right: transparent;
 
@@ -87,14 +99,12 @@ small {
   /* img replacement */
  text-indent: -99999px;
   width: 3rem;
-  line-height: 3rem;
+  line-height: 2rem;
   background: white url(../IMG/search-50.png) no-repeat;
   background-size: contain;
   background-position: center;
   border-left: transparent;
 }
 
-#navbar  {
-  border: 1px solid blue;
-}
+
 
