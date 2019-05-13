@@ -218,6 +218,15 @@ input[type="search"],
   .nav-menu li {
     padding-bottom: 10px;
   }
+
+  .nav-social a {
+    font-size: 110%;
+  }
+  .input-group {
+    padding: 10px 0;
+  }
+
+
 }
 
 
