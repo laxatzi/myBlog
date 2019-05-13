@@ -21,8 +21,8 @@
  body {
    margin: 0;
    padding: 0;
-   color: var(--docMain);
-   background-color: var(--docBgMain);
+   color: var(--colorMain);
+   background-color: var(--colorBgMain);
    font-family: "Lato", helvetica, arial, sans-serif;
    font-size: 2rem;
    text-shadow: 0, 2px, 0 rgba(0,0,0, .07);
@@ -71,32 +71,53 @@ small {
   display: flex;
   padding: 0;
   margin: 0;
-}
-.nav-menu {
-  flex: 4;
-}
-.nav-menu ul{
-  display: flex;
-}
-.nav-menu a {
-  border: 1px solid red;
-}
-.nav-social {
-  flex: 1;
-}
-.nav-social ul{
-  display: flex;
-  flex: 1;
-}
-.nav-social a {
-  border: 1px solid red;
-}
+  }
+  /* Nav Menu */
+  .nav-menu {
+    flex: 4;
+    padding: 0;
+    margin: 0;
+    border: 1px solid green;
+  }
+  .nav-menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+  }
+  .nav-menu a {
+    border: 1px solid red;
+    padding: 0;
+
+  }
+  /* Nav Social */
+  .nav-social {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    border: 1px solid green;
+  }
+  .nav-social ul{
+    display: flex;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    border: 1px solid green;
+  }
+  .nav-social a {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+  }
+
+ /*
 .input-group {
   padding: 0;
   margin: 0;
   display: flex;
   flex: 1;
-/* }
+ }
+
 #main-search,
 #mirror-search {
   margin: 0;
