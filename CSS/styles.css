@@ -176,7 +176,19 @@ input[type="search"],
 
 }
 @media screen and (max-width: 752px) {
-  
+  #navbar {
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .nav-menu,
+  .nav-social,
+  .input-group {
+    border: 1px solid red;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 
