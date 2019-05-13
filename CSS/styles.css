@@ -204,6 +204,20 @@ input[type="search"],
     align-items: center;
     justify-content: center;
   }
+
+  .nav-menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-menu a {
+    margin-right: 0;
+    font-size: 110%;
+  }
+  .nav-menu li {
+    padding-bottom: 10px;
+  }
 }
 
 
