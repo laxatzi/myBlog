@@ -1,7 +1,7 @@
 
 :root {
    --colorSecond: #666;
-   --colorMain: rgb(0,0,0);
+   --colorMain: #222;
    --colorBgMain:  #fff;
    --colorBgSecond: #F0F0F0;
    --colorDistinct: #F47E00;
@@ -67,9 +67,8 @@ small {
 /* NAV */
 
 #navbar  {
-  border: 1px solid blue;
+  border: 1px solid var(--colorBgSecond);
   display: flex;
-  padding: 0;
   margin: 0;
   }
   /* Nav Menu */
@@ -77,13 +76,12 @@ small {
     flex: 4;
     padding: 0;
     margin: 0;
-    border: 1px solid green;
+    padding: 1rem 0;
   }
   .nav-menu ul{
     display: flex;
     margin: 0;
     padding: 0;
-    border: 1px solid green;
   }
   .nav-menu a {
     border: 1px solid red;
@@ -93,21 +91,20 @@ small {
   /* Nav Social */
   .nav-social {
     flex: 1;
-    padding: 0;
+    padding: 1rem 0;
     margin: 0;
-    border: 1px solid green;
+    border-right: 1px solid var(--colorDistinct);
   }
   .nav-social ul{
     display: flex;
     flex: 1;
     padding: 0;
     margin: 0;
-    border: 1px solid green;
   }
   .nav-social a {
     border: 1px solid red;
     padding: 0;
-    margin: 0;
+    margin: 0 5px;
   }
 
  /*
