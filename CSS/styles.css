@@ -73,22 +73,25 @@ small {
 #main-search,
 #mirror-search {
   margin: 0;
+  border: 1px solid #000;
+
 }
 
 #main-search {
-  padding: 5px;
   line-height: 3rem;
   font-size: 2em;
+  border-right: transparent;
+
 }
 #mirror-search {
   /* img replacement */
  text-indent: -99999px;
   width: 3rem;
-  height: 3rem;
+  line-height: 3rem;
   background: white url(../IMG/search-50.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  padding: 5px;
+  border-left: transparent;
 }
 
 #navbar  {
