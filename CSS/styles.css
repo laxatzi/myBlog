@@ -62,7 +62,11 @@ small {
   vertical-align: middle;
   padding: 10px;
 }
-
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /* NAV */
 
 #navbar  {
@@ -185,6 +189,13 @@ input[type="search"],
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+/* Main */
+main {
+  border: 1px solid red;
+  width: 80%;
+  margin: 3rem auto 0;
 }
 
 @media screen and (max-width: 935px) {
