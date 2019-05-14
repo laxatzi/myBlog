@@ -207,8 +207,11 @@ input[type="search"],
     opacity: 0;
     z-index: 2;
   }
-  .fa-times__visible {
+  .fa__visible {
     opacity: 1;
+  }
+  .fa__hidden {
+    opacity: 0;
   }
   .nav-menu ul{
     display: flex;

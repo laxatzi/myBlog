@@ -16,7 +16,7 @@
 <body>
   <div class="container">
     <div class="toggler">
-      <i onclick="toggleFunction()" class="fas fa-bars"></i>
+      <i onclick="toggleFunction()" class="fas fa-bars" id="fa-bars"></i>
       <i class="fas fa-times" id="fa-times" onclick="removeTimes()"></i>
     </div>
 <!-- Navbar   -->
@@ -65,12 +65,16 @@
         if (navbar.style.display === "none") {
           navbar.style.display = "block";
           let faTimes = document.getElementById("fa-times");
-            faTimes.classList.add("fa-times__visible");
+            faTimes.classList.add("fa__visible");
+         let fabars = document.getElementById("fa-bars"); 
+            fabars.classList.add("fa__hidden");  
         } else {
           navbar.style.display = "none";
         }
 
       } 
+
+      
 
       
   </script>
