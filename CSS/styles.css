@@ -135,9 +135,10 @@ small {
   justify-content: end;
 }
 input[type="search"] {
-  border: transparent;
-  font-style: oblique;
-  font-size: 1.4rem;
+ font-style: oblique;
+ font-size: 1.4rem;
+ border: 1px solid transparent;
+ border-bottom: 1px solid var(--colorBgSecond);
 }
 input[type="search"],
 .btn-search i
@@ -145,6 +146,15 @@ input[type="search"],
   padding: 5px;
   margin: 0;
   background-color: var(--colorBgMain);
+}
+
+.fa-search {
+  border: 2px solid var(--colorSecond);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 .btn-search {
   margin: 0;
@@ -206,6 +216,7 @@ input[type="search"],
   .fa-times {
     opacity: 0;
     z-index: 2;
+    color: var(--colorDistinct);
   }
   .fa__visible {
     opacity: 1;
