@@ -138,8 +138,9 @@ input[type="search"] {
  font-style: oblique;
  font-size: 1.4rem;
  border: 1px solid transparent;
- border-bottom: 1px solid var(--colorBgSecond);
+ border-bottom: 1px dotted var(--colorBgSecond);
 }
+
 input[type="search"],
 .btn-search i
  {
@@ -155,14 +156,22 @@ input[type="search"],
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
+  color: var(--colorSecond);
 }
+.fa-search:hover,
+.fa-search:focus {
+  color: var(--colorBgMain);
+  background-color: var(--colorSecond);
+}
+
 .btn-search {
   margin: 0;
   background-color: var(--colorBgMain);
   padding: 2px;
   border: transparent;
-
 }
+
+
 .toggler {
   display: none;
   font-size: 4rem;
