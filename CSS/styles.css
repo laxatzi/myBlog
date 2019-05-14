@@ -201,9 +201,15 @@ input[type="search"],
   .toggler {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
   }
-
+  .fa-times {
+    opacity: 0;
+    z-index: 2;
+  }
+  .fa-times__visible {
+    opacity: 1;
+  }
   .nav-menu ul{
     display: flex;
     flex-direction: column;

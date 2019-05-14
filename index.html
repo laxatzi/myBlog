@@ -17,6 +17,7 @@
   <div class="container">
     <div class="toggler">
       <i onclick="toggleFunction()" class="fas fa-bars"></i>
+      <i class="fas fa-times" id="fa-times" onclick="removeTimes()"></i>
     </div>
 <!-- Navbar   -->
     <nav id="navbar">
@@ -63,10 +64,15 @@
         let navbar = document.getElementById("navbar");
         if (navbar.style.display === "none") {
           navbar.style.display = "block";
+          let faTimes = document.getElementById("fa-times");
+            faTimes.classList.add("fa-times__visible");
         } else {
           navbar.style.display = "none";
         }
+
       } 
+
+      
   </script>
 </body>
 </html>
