@@ -233,7 +233,9 @@ article {
   padding: 10px;
   margin-left: 15px;
 }
-
+.text-section h3 {
+  text-align: left;
+}
 .text-section > * {
   padding: 0;
   margin: 0;
@@ -243,6 +245,13 @@ article {
   display: flex;
   font-size: 70%;
 }
+.info-section > * {
+  margin-right: 15px;
+}
+.info-section>*:last-child {
+  margin-right: 0;  
+}
+
 @media screen and (max-width: 935px) {
     /* Nav Menu */
     .nav-menu {
