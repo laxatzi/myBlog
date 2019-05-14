@@ -74,7 +74,19 @@
 
       } 
 
-      
+      function removeTimes() {
+        let navbar = document.getElementById("navbar");
+        if(navbar.style.display === "block"){
+          navbar.style.display = "none"
+        }
+        else {
+          navbar.style.display = "none";
+        }
+        let faTimes = document.getElementById("fa-times");
+            faTimes.classList.remove("fa__visible");
+         let fabars = document.getElementById("fa-bars"); 
+            fabars.classList.remove("fa__hidden");
+      }
 
       
   </script>
