@@ -224,10 +224,11 @@ article {
   align-items: center;
 }
 .img-section {
-  flex: 5;
+  flex: 4;
   margin: 0;
   padding: 0;
   display: flex;
+  border: 1px solid red;
 }
 
  .img-section img {
@@ -250,10 +251,12 @@ article {
   padding: 10px;
   margin-left: 15px;
 }
+
 .text-section h3,
 .text-section p {
   text-align: left;
 }
+
 .text-section > * {
   padding: 2rem auto;
   margin: 0;
@@ -265,12 +268,15 @@ article {
   justify-content: start;
   align-items: center;
 }
+
 .info-section > * {
   margin-right: 15px;
 }
+
 .info-section>*:last-child {
   margin-right: 0;  
 }
+
  .author img {
   width: 60px;
   height: auto;
