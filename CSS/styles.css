@@ -194,10 +194,16 @@ input[type="search"],
 /* Main */
 main {
   border: 1px solid red;
-  width: 80%;
+  width: 70%;
   margin: 3rem auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
-
+article {
+  border: 1px solid green;
+  display: flex;
+}
 @media screen and (max-width: 935px) {
     /* Nav Menu */
     .nav-menu {
