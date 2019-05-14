@@ -54,8 +54,8 @@
         </ul>
       </div>
       <div class="input-group">
-        <input type="search"id="main-search" placeholder="Hit enter to search">
-        <button class="btn-search" type="submit"><i class="fas fa-search"></i>
+        <input type="search" id="main-search" placeholder="Hit enter to search">
+        <button class="btn-search" type="submit" onclick="toggleBtn()"><i class="fas fa-search"></i>
         </button>
       </div>
     </nav>
@@ -89,6 +89,16 @@
             fabars.classList.remove("fa__hidden");
       }
 
+       function toggleBtn() {
+          let searchInput = document.getElementById("main-search");
+          if (searchInput.style.display === "none") {
+            searchInput.style.display = "block";
+             
+          } else {
+            searchInput.style.display = "none";
+          }
+
+       }
       
   </script>
 </body>
