@@ -219,9 +219,10 @@ main {
 article {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding-bottom: 50px;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px dotted var(--colorBgSecond);
 }
 .img-section {
   flex: 4;
