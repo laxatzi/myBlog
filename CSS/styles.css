@@ -46,26 +46,32 @@
    font-weight: 300;
    font-size: 1.8rem;
  }
+
 small {
   font-size: 1.5rem;
 }
+
  a {
    text-decoration: none;
    margin: 0;
    font-weight: 300;
    color: var(--colorSecond);
  }
+
  a:hover,
  a:focus {
    color: var(--colorDistinct);
  }
+
  li {
    list-style-type: none;
  }
+
  img {
   vertical-align: middle;
   padding: 10px;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -89,6 +95,7 @@ small {
     align-items: center;
     justify-content: start;  
   }
+
   .nav-menu ul{
     display: flex;
     margin: 0;
@@ -100,6 +107,7 @@ small {
     margin-right: 15px;
     font-size: 1.65rem;
   }
+
   .nav-menu a:last-child{
     margin-right: 0;
   }
@@ -113,20 +121,24 @@ small {
     align-items: center;
     justify-content: center;
   }
+
   .nav-social ul{
     display: flex;
     padding: 0;
     margin: 0;
   }
+
   .nav-social a {
     padding: 0;
     margin: 0 5px;
     color: var(--colorMain);
   }
+
  .nav-social a:hover,
  .nav-social a:focus {
    color: var(--colorDistinct);
  }
+
  .nav-menu a:hover,
  .nav-menu a:focus,
  .nav-menu a:active {
@@ -142,6 +154,7 @@ small {
   align-items: center;
   justify-content: end;
 }
+
 input[type="search"] {
  font-style: oblique;
  font-size: 1.4rem;
@@ -167,6 +180,7 @@ input[type="search"],
   -o-border-radius: 7px;
   color: var(--colorSecond);
 }
+
 .fa-search:hover,
 .fa-search:focus {
   color: var(--colorBgMain);
@@ -179,7 +193,6 @@ input[type="search"],
   padding: 2px;
   border: transparent;
 }
-
 
 .toggler {
   display: none;
@@ -211,7 +224,7 @@ article {
   align-items: center;
 }
 .img-section {
-  flex: 4;
+  flex: 5;
   margin: 0;
   padding: 0;
   display: flex;
@@ -269,6 +282,20 @@ article {
   -o-border-radius: 50px;
   padding: 5px;
 }
+
+.text-section input[type="button"] {
+  margin-top: 2rem;
+  font-size: 1.68rem;
+  padding: 10px 25px;
+  background-color: var(--colorBgMain);
+  border: 1px solid var(--colorDistinct);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
 @media screen and (max-width: 935px) {
     /* Nav Menu */
     .nav-menu {
