@@ -330,6 +330,8 @@ article {
   -o-border-radius: 100%;
 }
 
+#bcrumbs .bcrumb-item:hover,
+#bcrumbs .bcrumb-item:focus
 
 
 @media screen and (max-width: 935px) {
