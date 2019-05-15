@@ -343,6 +343,8 @@ article {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  width: 70%;
+  margin: 0 auto; 
 }
 .upper__footer span {
   font-weight: bold;
@@ -355,16 +357,17 @@ article {
 /* Upper Footer one */
 
     .upper__footer-one {
-      background-color: pink;
       flex: 1;
-      padding:0;
-      padding-left: 10%;
-    }
-   
+      padding: 0;
+      padding-left: 5%;
+  }
+   .upper__footer-one p,
+   .upper__footer-one h4 {
+     text-align: left;
+   }
   /* Upper footer 2 */
  
     .upper__footer-two {
-      background-color: yellow;
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -373,33 +376,33 @@ article {
       margin: 0;
     }
     .upper__footer-two .nav-menu {
-      margin: 0;
+      margin: 2rem 0;
       padding: 0;
+      display: flex;
+      align-items: start;
     }
         .upper__footer-two .nav-menu ul{
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          border: 1px solid green;
           margin: 0;
           padding: 0;
-        }
-        .upper__footer-two .nav-menu li {
           border: 1px solid red;
         }
         .upper__footer-two .nav-menu a {
-          border: 1px solid blue;
+          padding-top: 1rem;
+        }
+        .upper__footer-two .nav-menu a:first-of-type {
+          padding-top: 0;
         }
     /* Upper footer 3 */
     .upper__footer-three {
-      background-color: yellowgreen;
       flex: 1;
       display: flex;
       flex-direction: column;
       justify-content: center;  
       align-items: start;  
       padding: 0;  
-      padding-left: 10%;
+      padding-left: 5%;
       margin: 0;
     }
     .upper__footer-three p {
