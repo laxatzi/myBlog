@@ -343,16 +343,22 @@ article {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 70%;
+  margin: 1rem auto 0;
 }
     .upper__footer .one {
       background-color: pink;
+      flex: 1;
     }
     .upper__footer .two {
       background-color: yellow;
+      flex: 1;
     }
     .upper__footer .three {
       background-color: yellowgreen;
+      flex: 1;
     }
+
 /* MEDIA @ 935px */
 @media screen and (max-width: 935px) {
     /* Nav Menu */
