@@ -338,7 +338,22 @@ article {
 #bcrumbs .active {
     border-color: var(--colorDistinct);
 }
-
+/* Upper Footer */
+.upper__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    .upper__footer .one {
+      background-color: pink;
+    }
+    .upper__footer .two {
+      background-color: yellow;
+    }
+    .upper__footer .three {
+      background-color: yellowgreen;
+    }
+/* MEDIA @ 935px */
 @media screen and (max-width: 935px) {
     /* Nav Menu */
     .nav-menu {
@@ -357,6 +372,7 @@ article {
     }
     
 }
+/* MEDIA @ 752px */
 @media screen and (max-width: 752px) {
   #navbar {
     flex-direction: column;
