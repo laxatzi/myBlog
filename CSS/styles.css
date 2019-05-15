@@ -316,7 +316,21 @@ article {
 #bcrumbs {
   display: flex;
   border-top: 1px solid var(--colorBgSecond);
+  padding: 7rem 0;
 }
+
+#bcrumbs .bcrumb-item {
+  border: 2px solid var(--colorBgSecond);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  padding: 15px;
+  margin-right: 10px;
+  -o-border-radius: 100%;
+}
+
+
 
 @media screen and (max-width: 935px) {
     /* Nav Menu */
