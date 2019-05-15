@@ -342,7 +342,7 @@ article {
 .upper__footer {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: stretch;
 }
 .upper__footer span {
   font-weight: bold;
