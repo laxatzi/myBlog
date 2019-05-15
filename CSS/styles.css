@@ -70,6 +70,9 @@ small {
  img {
   vertical-align: middle;
   padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -446,7 +449,109 @@ article {
     .input-group {
       margin-right: 8%;
     }
+
+    /* Main */
+main {
+  margin: 2rem auto 0; 
+}
+article {
+  margin: 0;
+  padding: 30px 0;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+ .img-section img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+} 
+
+   /* Upper Footer */
+.upper__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 65%;
+  margin: 0 auto; 
+}
+.upper__footer p {
+  font-size: 80%;
+}
+.upper__footer span {
+  font-weight: bold;
+}
+
+.upper__footer h4 {
+  margin: 0;
+  padding:10px 0;
+}
+/* Upper Footer one */
+.upper__footer-item {
+  display: flex;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+    .upper__footer-one {
+      /* padding-left: 5%;  */
+      flex-direction: column;
+  }
+   .upper__footer-one p,
+   .upper__footer-one h4 {
+     text-align: left;
+   }
+  /* Upper footer 2 */
+ 
+    .upper__footer-two {
+      flex-direction: column;
+      align-items: center;  
+    }
+    .upper__footer-two .nav-menu {
+      margin: 2rem 0;
+      padding: 0;
+      display: flex;
+      align-items: start;
+    }
+        .upper__footer-two .nav-menu ul{
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+          padding: 0;
+        }
+        .upper__footer-two .nav-menu a {
+          padding-top: 1rem;
+        }
+        .upper__footer-two .nav-menu a:first-of-type {
+          padding-top: 0;
+        }
+    /* Upper footer 3 */
+    .upper__footer-three {
+      flex-direction: column;
+      justify-content: center;  
+      align-items: start;  
+       padding-left: 7%; 
+       display:flex;
+    }
+    .upper__footer-three > * { flex: 1; }
+    .upper__footer-three p {
+      margin: 3px 0;
+    }
+    .upper__footer-three .nav-social {
+      border-right: 0;
+      padding: 0;
+      margin: 0;
+      align-items: start;
+      display: flex;
     
+    } 
 }
 /* MEDIA @ 752px */
 @media screen and (max-width: 752px) {
