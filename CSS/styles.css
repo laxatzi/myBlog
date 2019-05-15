@@ -291,10 +291,11 @@ article {
   -o-border-radius: 50px;
   padding: 5px;
 }
+.article-btn { margin-top: 2rem; }
 
-.text-section input[type="button"] {
-  margin-top: 2rem;
+.article-btn  a  {
   font-size: 1.68rem;
+  color: var(--colorMain);
   padding: 10px 25px;
   background-color: var(--colorBgMain);
   border: 1px solid var(--colorDistinct);
@@ -303,6 +304,12 @@ article {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  }
+
+.article-btn a:hover,
+.article-btn a:focus {
+  background-color: var(--colorDistinct);
+  color: var(--colorBgMain);
 }
 
 @media screen and (max-width: 935px) {
