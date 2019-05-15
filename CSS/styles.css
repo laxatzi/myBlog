@@ -132,7 +132,9 @@ small {
     padding: 0;
     margin: 0 5px;
     color: var(--colorMain);
+    font-size: 2.5rem;
   }
+
 
  .nav-social a:hover,
  .nav-social a:focus {
