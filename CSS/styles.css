@@ -240,8 +240,6 @@ article {
  .img-section img {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: auto;
   border: 1px solid transparent;
   border-radius: 25px;
   -webkit-border-radius: 25px;
@@ -285,7 +283,6 @@ article {
 
  .author img {
   width: 60px;
-  height: auto;
   border: 1px solid transparent;
   border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -464,8 +461,6 @@ article {
  .img-section img {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: auto;
   border: 1px solid transparent;
   border-radius: 25px;
   -webkit-border-radius: 25px;
