@@ -319,20 +319,25 @@ article {
   padding: 7rem 0;
 }
 
-#bcrumbs .bcrumb-item {
+ .bcrumb-item {
   border: 2px solid var(--colorBgSecond);
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
   padding: 15px;
   margin-right: 10px;
-  -o-border-radius: 100%;
+  -o-border-radius: 50%;
 }
 
-#bcrumbs .bcrumb-item:hover,
-#bcrumbs .bcrumb-item:focus
+ .bcrumb-item:hover,
+ .bcrumb-item:focus {
+  border-color: var(--colorDistinct);
+}
 
+#bcrumbs .active {
+    border-color: var(--colorDistinct);
+}
 
 @media screen and (max-width: 935px) {
     /* Nav Menu */
