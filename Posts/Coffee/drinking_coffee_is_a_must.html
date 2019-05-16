@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Product landing example page</title>
+  <meta name="author" content="Lambros Hatzinikolaou">
+  <meta name="description" content="A typical landing page">
+  <meta name="keywords" content="landing page, features, pricing, how to use, how it works">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <div class="container">
+    <div class="toggler">
+      <i onclick="toggleFunction()" class="fas fa-bars" id="fa-bars"></i>
+      <i class="fas fa-times" id="fa-times" onclick="removeTimes()"></i>
+    </div>
+<!-- Navbar   -->
+    <nav id="navbar">
+      <div class="nav-menu">
+        <ul>
+          <a href="#home" class="nav-link">
+            <li>Home</li>
+          </a>
+          <a href="#posts" class="nav-link">
+            <li>Posts</li>
+          </a>
+          <a href="#about" class="nav-link">
+            <li>About Me</li>
+          </a>
+          <a href="#contanct" class="nav-link">
+            <li>Contact Me</li>
+          </a>
+          <a href="#hire" class="nav-link">
+            <li>Hire</li>
+          </a>                  
+        </ul>
+      </div>
+      <div class="nav-social">
+        <ul>
+          <a href="#facebook.com" class="nav-link">
+            <li><i class="fab fa-facebook"></i></li>
+          </a>
+          <a href="#twitter.com" class="nav-link">
+            <li><i class="fab fa-twitter-square"></i></li>
+          </a>
+          <a href="#dribble.com" class="nav-link">
+            <li><i class="fab fa-dribbble-square"></i></li>
+          </a>
+          <a href="#linkedin.com" class="nav-link">
+            <li><i class="fab fa-linkedin"></i></li>
+          </a>
+        </ul>
+      </div>
+      <div class="input-group">
+        <input type="search" id="main-search" placeholder="Hit enter to search">
+        <button class="btn-search" type="submit" onclick="toggleBtn()"><i class="fas fa-search"></i>
+        </button>
+      </div>
+    </nav>
+
+<!-- Main -->
+   <main id="main-content">
+     <article>
+       <div class="img-section">
+           <img src="img/breakfast.jpg" alt="">
+       </div>
+       <div class="text-section">
+         <h3>Drinking Coffee Is A Must!</h3>
+         <div class="info-section">
+           <div class="category"><a href="#categories">Category</a></div>
+           <div class="date">May 14, 2019</div>
+           <div class="comments"><a href="#comments">5 Comments</a></div>
+           <div class="author"><a href="#author"><img src="img/manSmall.jpg" alt="">John Doe</a></div>
+         </div>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis at alias natus impedit blanditiis consequatur, cum repudiandae explicabo officiis nobis architecto vel temporibus amet dolore quo itaque in maxime omnis.</p>
+         
+       </div>
+     </article>
+     
+
+</main>
+<!-- Upper Footer -->
+<section class="upper__footer">
+  <!-- Upper Footer item 1 -->
+    <div class="upper__footer-item upper__footer-one">
+       <h4>What I Do</h4>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, ducimus necessitatibus a at perspiciatis provident quo, repudiandae laborum nam dolorem inventore esse sint sed iusto doloremque accusamus.</p>
+    </div>
+  <!-- Upper footer item 2 -->
+    <div class="upper__footer-item upper__footer-two">
+        <h4>Site Links</h4>
+        <div class="nav-menu">
+            <ul>
+              <a href="#home" class="nav-link">
+                <li>Home</li>
+              </a>
+              <a href="#posts" class="nav-link">
+                <li>Posts</li>
+              </a>
+              <a href="#about" class="nav-link">
+                <li>About Me</li>
+              </a>
+              <a href="#contanct" class="nav-link">
+                <li>Contact Me</li>
+              </a>
+              <a href="#hire" class="nav-link">
+                <li>Hire</li>
+              </a>                  
+            </ul>
+          </div>
+    </div>
+    <!-- Upper footer item 3 -->
+    <div class="upper__footer-item upper__footer-three">
+      <h4>Contact</h4>
+      <p>mymail@mail.com</p>
+      <div class="nav-social">
+          <ul>
+            <a href="#facebook.com" class="nav-link">
+              <li><i class="fab fa-facebook"></i></li>
+            </a>
+            <a href="#twitter.com" class="nav-link">
+              <li><i class="fab fa-twitter-square"></i></li>
+            </a>
+            <a href="#dribble.com" class="nav-link">
+              <li><i class="fab fa-dribbble-square"></i></li>
+            </a>
+            <a href="#linkedin.com" class="nav-link">
+              <li><i class="fab fa-linkedin"></i></li>
+            </a>
+          </ul>
+        </div>
+      <p><span>Adress:</span> Mikras Asias, 4</p>
+      <p><span>Zip Code:</span> 57010</p>
+      <p><span>Phone:</span> 031-2310-xxxxxx</p>
+      <p><span>Mobile:</span> 69xx-xxxxxx</p>
+    </div>
+  </section>
+<!-- Main Footer -->
+  <footer id="footer-main">
+    <div class="copyright">
+      <span class="copy">© Copyright 2019 -Developed by Lambros Hatzinikolaou</span>-
+      <span class="identity">Freelance Web Developer Thessaloniki, Greece.</span>
+    </div>
+  </footer>
+<!-- <end of container> -->
+</div>
+<!-- Scirpts -->
+  <script>
+      function toggleFunction() {
+        let navbar = document.getElementById("navbar");
+        if (navbar.style.display === "none") {
+          navbar.style.display = "block";
+          let faTimes = document.getElementById("fa-times");
+            faTimes.classList.add("fa__visible");
+         let fabars = document.getElementById("fa-bars"); 
+            fabars.classList.add("fa__hidden");  
+        } else {
+          navbar.style.display = "none";
+        }
+
+      } 
+
+      function removeTimes() {
+        let navbar = document.getElementById("navbar");
+        if(navbar.style.display === "block"){
+          navbar.style.display = "none"
+        }
+        else {
+          navbar.style.display = "none";
+        }
+        let faTimes = document.getElementById("fa-times");
+            faTimes.classList.remove("fa__visible");
+         let fabars = document.getElementById("fa-bars"); 
+            fabars.classList.remove("fa__hidden");
+      }
+
+       function toggleBtn() {
+          let searchInput = document.getElementById("main-search");
+          if (searchInput.style.display === "none") {
+            searchInput.style.display = "block";
+             
+          } else {
+            searchInput.style.display = "none";
+          }
+
+       }
+      
+  </script>
+</body>
+</html>
