@@ -575,7 +575,10 @@ article {
   .info-section>*:first-child {
     margin-top: 10px;  
   }
-
+/* BreadCrumbs */
+#bcrumbs {
+  padding: 3rem 0;
+}
 /* Upper footer */
   .upper__footer-two .nav-menu ul{
     flex-direction: column;
