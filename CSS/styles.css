@@ -103,7 +103,19 @@ blockquote:before {
   font-size:  10rem; 
   top: 50px;
 }
-
+/* IMAGE EMBED */
+.img_embed {
+  display: flex;
+}
+.img_embed img {
+  object-fit: contain;
+  align-self: flex-start;
+  margin: 20px 20px 0 0;
+  flex: 2
+}
+.img_embed p {
+  flex: 3;
+}
 /* Container */
 .container {
   display: flex;
