@@ -106,6 +106,7 @@ blockquote:before {
 /* IMAGE EMBED */
 .img_embed {
   display: flex;
+
 }
 .img_embed img {
   object-fit: contain;
