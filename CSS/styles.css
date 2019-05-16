@@ -79,6 +79,7 @@ small {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 350px;
 }
 /* NAV */
 
@@ -503,6 +504,7 @@ article {
        padding-left: 0; 
     } 
 }
+
 /* MEDIA @ 752px */
 @media screen and (max-width: 752px) {
   #navbar {
@@ -553,6 +555,24 @@ article {
   .input-group {
     padding: 10px 0;
   }
+  main {
+    width: 100%;
+    padding: 10px 3%; 
+  }
+
+  .upper__footer-two .nav-menu ul{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .upper__footer-two .nav-menu a {
+    padding-top: 0;
+  }
+
 
 
 }
