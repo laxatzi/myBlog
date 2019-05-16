@@ -85,6 +85,7 @@ h4 {
 }
 
 blockquote {
+  position: relative;
   font-weight: bold;
   border-top: 1px dashed #cacaca;
   border-bottom: 1px dashed #cacaca;
@@ -92,6 +93,15 @@ blockquote {
   line-height: 1.6em;
   font-size: 100%;
   padding: 20px 5em;
+}
+
+blockquote:before {
+  content: "\201c";
+  position: absolute;
+  left: 50px;
+  color: #ededed;
+  font-size:  10rem; 
+  top: 50px;
 }
 
 /* Container */
