@@ -89,7 +89,7 @@ blockquote {
   font-weight: bold;
   border-top: 1px dashed #cacaca;
   border-bottom: 1px dashed #cacaca;
-  text-align: center;
+  text-align: left;
   line-height: 1.6em;
   font-size: 100%;
   padding: 20px 5em;
@@ -98,7 +98,7 @@ blockquote {
 blockquote:before {
   content: "\201c";
   position: absolute;
-  left: 50px;
+  left: 30px;
   color: #ededed;
   font-size:  10rem; 
   top: 50px;
@@ -539,6 +539,22 @@ article {
 
 /* MEDIA @ 752px */
 @media screen and (max-width: 752px) {
+  /* Basic styles */
+  blockquote {
+    line-height: 1.46em;
+    font-size: 90%;
+  }
+  
+  blockquote:before {
+    content: "\201c";
+    position: absolute;
+    left: 10px;
+    color: #ededed;
+    font-size:  10rem; 
+    top: 50px;
+  }
+  
+  /* Navbar */
   #navbar {
     flex-direction: column;
     width: 100%;
