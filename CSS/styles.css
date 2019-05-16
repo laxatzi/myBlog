@@ -74,7 +74,19 @@ small {
   max-width: 100%;
   height: auto;
 }
+h4 {
+  font-size: 125%;
+  text-align: left;
+  padding: 30px 0;
+}
+p {
+  padding-bottom: 20px;
+}
+p:last-of-type {
+  padding-bottom: 0;
+}
 
+/* Container */
 .container {
   display: flex;
   flex-direction: column;
