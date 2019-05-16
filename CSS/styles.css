@@ -85,22 +85,15 @@ h4 {
 }
 
 blockquote {
-  position: relative; /* preparing for quote placement*/
-  margin: 50px 0;
   font-weight: bold;
   border-top: 1px dashed #cacaca;
   border-bottom: 1px dashed #cacaca;
-  display: block;
   text-align: center;
   line-height: 1.6em;
-  font-size: 1.2rem;
+  font-size: 115%;
+  padding: 0 5em;
 }
-blockquote::before {
-  content: "\201c";
-  position: absolute;
-  left: 0;
-  color: #ededed;
-}
+
 /* Container */
 .container {
   display: flex;
