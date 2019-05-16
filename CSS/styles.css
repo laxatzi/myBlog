@@ -364,6 +364,7 @@ article {
   flex: 1;
   padding: 0;
   margin: 0;
+  border: 1px solid red;
 }
     .upper__footer-one {
       /* padding-left: 5%;  */
@@ -471,81 +472,39 @@ article {
 
    /* Upper Footer */
 .upper__footer {
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: stretch;
-  width: 65%;
-  margin: 0 auto; 
-}
-.upper__footer p {
-  font-size: 80%;
-}
-.upper__footer span {
-  font-weight: bold;
+  flex-direction: column; 
 }
 
-.upper__footer h4 {
-  margin: 0;
-  padding:10px 0;
-}
-/* Upper Footer one */
-.upper__footer-item {
-  display: flex;
-  flex: 1;
-  padding: 0;
-  margin: 0;
-}
-    .upper__footer-one {
-      /* padding-left: 5%;  */
-      flex-direction: column;
-  }
-   .upper__footer-one p,
-   .upper__footer-one h4 {
-     text-align: left;
-   }
+.upper__footer-item h4 { text-align: left; border: 1px solid red; }
   /* Upper footer 2 */
- 
-    .upper__footer-two {
-      flex-direction: column;
-      align-items: center;  
-    }
-    .upper__footer-two .nav-menu {
-      margin: 2rem 0;
-      padding: 0;
-      display: flex;
-      align-items: start;
+  .upper__footer-two {
+    align-items: start; 
+    border: 1px solid black; 
+  }
+
+  .upper__footer-two .nav-menu {
+      border: 1px solid green;
+      width: 100%;
     }
         .upper__footer-two .nav-menu ul{
-          display: flex;
-          flex-direction: column;
+          flex-direction: row;
           margin: 0;
           padding: 0;
+          border: 1px solid red;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
         }
         .upper__footer-two .nav-menu a {
-          padding-top: 1rem;
-        }
-        .upper__footer-two .nav-menu a:first-of-type {
           padding-top: 0;
         }
+      
     /* Upper footer 3 */
-    .upper__footer-three {
-      flex-direction: column;
-      justify-content: center;  
-      align-items: start;  
-       padding-left: 7%; 
-       display:flex;
-    }
-    .upper__footer-three > * { flex: 1; }
-    .upper__footer-three p {
-      margin: 3px 0;
-    }
-    .upper__footer-three .nav-social {
-      border-right: 0;
-      padding: 0;
-      margin: 0;
-      align-items: start;
-      display: flex;
-    
+    .upper__footer-three {  
+       padding-left: 0; 
     } 
 }
 /* MEDIA @ 752px */
@@ -586,7 +545,7 @@ article {
   }
   .nav-menu a {
     margin-right: 0;
-    font-size: 110%;
+    font-size: 100%;
   }
   .nav-menu li {
     padding-bottom: 10px;
