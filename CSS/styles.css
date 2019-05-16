@@ -439,7 +439,7 @@ article {
   }
    .nav-menu a {
       margin-right: 12.5px;
-      font-size: 1.45rem;
+      font-size: 85%;
     }
     .nav-social {
       flex:1;
@@ -487,6 +487,7 @@ article {
   .upper__footer-two .nav-menu {
       border: 1px solid green;
       width: 100%;
+      margin: 1rem 0;
     }
         .upper__footer-two .nav-menu ul{
           flex-direction: row;
@@ -501,7 +502,7 @@ article {
         .upper__footer-two .nav-menu a {
           padding-top: 0;
         }
-      
+ }
     /* Upper footer 3 */
     .upper__footer-three {  
        padding-left: 0; 
