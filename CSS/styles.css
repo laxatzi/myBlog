@@ -560,6 +560,23 @@ article {
     padding: 10px 3%; 
   }
 
+ /* Info-section  */
+ .info-section {
+    font-size: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .info-section > * {
+    margin: 3px 0 5px;
+  }
+
+  .info-section>*:first-child {
+    margin-top: 10px;  
+  }
+
+/* Upper footer */
   .upper__footer-two .nav-menu ul{
     flex-direction: column;
     margin: 0;
