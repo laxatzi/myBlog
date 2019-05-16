@@ -117,6 +117,27 @@ blockquote:before {
 .img_embed p {
   flex: 3;
 }
+
+.post_bio {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.post_bio img {
+  flex: 1;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  object-fit: contain;
+  min-width: 150px;
+}
+.post_bio p {
+  flex: 6;
+}
 /* Container */
 .container {
   display: flex;
