@@ -83,7 +83,10 @@ h4 {
   text-align: left;
   padding: 30px 0;
 }
-
+h5 {
+  text-align: left;
+  margin: 0;
+}
 blockquote {
   position: relative;
   font-weight: bold;
@@ -118,13 +121,15 @@ blockquote:before {
   flex: 3;
 }
 
-.post_bio {
+.post_bio,
+.prev_post {
   display: flex;
   align-items: center;
   padding: 20px;
   margin-bottom: 50px;
 }
-.post_bio img {
+.post_bio img,
+.prev_post img {
   flex: 1;
   border: 1px solid transparent;
   border-radius: 100%;
@@ -138,6 +143,12 @@ blockquote:before {
 .post_bio p {
   flex: 6;
 }
+.author_text,
+.author_img  {
+  padding: 0;
+  margin: 0;
+}
+.author_text p { margin: 0; }
 /* Container */
 .container {
   display: flex;

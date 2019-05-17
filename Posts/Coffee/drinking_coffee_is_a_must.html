@@ -29,6 +29,14 @@
   article >  .nav-social a {
        font-size: 3.25rem;
     }
+    .author_text h5,
+    .author_text h5 {
+      padding: 15px 0;
+    }
+    .author_text p,
+    .prev_post p {
+      text-align: left;
+    }
 /* MEDIA @ max 500px */
 @media screen and (max-width: 500px) {
    /* IMAGE EMBED */
@@ -150,8 +158,17 @@
         </div>
      </article>
      <section id="author" class="post_bio">
-        <img src="../../img/manSmall.jpg" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non magnam libero ipsam. Nostrum eaque, eveniet cumque iste aliquid consequatur voluptate quas ipsa quibusdam expedita temporibus saepe et tenetur, a aperiam.</p>
+        <div class="author_img">
+            <img src="../../img/manSmall.jpg" alt="">
+        </div>
+        <div class="author_text">
+            <h5>John Doe</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non magnam libero ipsam. Nostrum eaque, eveniet cumque iste aliquid consequatur voluptate quas ipsa quibusdam expedita temporibus saepe et tenetur, a aperiam.</p>
+        </div>
+     </section>
+     <section id="previus" class="prev_post">
+       <small>Previous Post:</small>
+
      </section>
 
 </main>
