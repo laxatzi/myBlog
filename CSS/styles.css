@@ -180,7 +180,9 @@ blockquote:before {
 .rel_posts img {
   border: 1px solid transparent;
   border-radius: 25px;
-  max-height: 150px;
+  max-width: 300px;
+  height: auto;
+
 }
 /* Container */
 .container {
@@ -542,6 +544,17 @@ article {
 
 /* MEDIA @ 935px */
 @media screen and (max-width: 935px) {
+  .related {
+    border: 1px solid red;
+    width: 80%;
+    padding: 0 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    }
+  
+  .related h5 {
+    font-size: 70%;
+  }
     /* Nav Menu */
     .nav-menu {
       margin-left: 8%;
@@ -631,7 +644,17 @@ article {
     font-size:  10rem; 
     top: 50px;
   }
-  
+  .rel_posts {
+    flex-direction: column;
+  }
+  .rel_posts-item {
+   
+    flex-direction: column;
+  }
+  .rel_posts-item img {
+    order: 1;
+    align-items: flex-start;
+  }
   /* Navbar */
   #navbar {
     flex-direction: column;
