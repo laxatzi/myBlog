@@ -140,7 +140,22 @@ blockquote:before {
   object-fit: contain;
   min-width: 150px;
 }
-.post_bio p {
+.prev_post-img {
+  display: flex;
+  align-items: center;
+
+}
+.prev_post-img > i {
+  flex: 2;
+  font-size: 200%;
+}
+.prev_post-img img {
+  display: flex;
+  justify-content: flex-end;
+  flex:1;
+}
+.post_bio p,
+.prev_post p {
   flex: 6;
 }
 .author_text,
