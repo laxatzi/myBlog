@@ -37,6 +37,13 @@
     .prev_post p {
       text-align: left;
     }
+    .prev_post {
+      border: 1px solid green;
+      width: 100%;
+    }
+    small {
+      border: 1px solid red;
+    }
 /* MEDIA @ max 500px */
 @media screen and (max-width: 500px) {
    /* IMAGE EMBED */
@@ -67,7 +74,7 @@
     <nav id="navbar">
       <div class="nav-menu">
         <ul>
-          <a href="#home" class="nav-link">
+          <a href="../../index.html" class="nav-link">
             <li>Home</li>
           </a>
           <a href="#posts" class="nav-link">
@@ -167,8 +174,14 @@
         </div>
      </section>
      <section id="previus" class="prev_post">
-       <small>Previous Post:</small>
-
+       <div class="prev_post-img">
+          <i class="fas fa-angle-double-left"></i>
+          <img src="../../img/manSmall.jpg" alt="">
+       </div>
+       <div class="prev_post-text">
+           <small>Previous Post:</small>
+          <p>The Most Popular Coctail Recipes!</p>
+       </div>
      </section>
 
 </main>
