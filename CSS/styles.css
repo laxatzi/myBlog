@@ -145,7 +145,7 @@ blockquote:before {
   align-items: center;
 
 }
-.prev_post-img > i {
+.prev_post-img > a {
   flex: 2;
   font-size: 200%;
 }
@@ -167,6 +167,20 @@ blockquote:before {
 
 .rel_posts {
   display: flex;
+}
+.rel_posts-item {
+  flex: 1;  
+}
+.related {
+  width: 100%;
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+
+.rel_posts img {
+  border: 1px solid transparent;
+  border-radius: 25px;
+  max-height: 150px;
 }
 /* Container */
 .container {

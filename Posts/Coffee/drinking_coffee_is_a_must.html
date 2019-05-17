@@ -45,9 +45,6 @@
       width: 100%;
     }
   
-    .related {
-      border: 1px solid red;
-    }
 /* MEDIA @ max 500px */
 @media screen and (max-width: 500px) {
    /* IMAGE EMBED */
@@ -65,7 +62,17 @@
    max-width: 200px;
    order: 1;
 }
-
+.rel_posts {
+  flex-direction: column;
+}
+.rel_posts-item {
+  display: flex;
+  flex-direction: column;
+}
+.rel_posts-item img {
+  order: 1;
+  align-items: flex-start;
+}
 }
 
 </style>
@@ -181,7 +188,9 @@
      </section>
      <section id="previus" class="prev_post">
        <div class="prev_post-img">
-          <i class="fas fa-angle-double-left"></i>
+          <a href="#">
+              <i class="fas fa-angle-double-left"></i>
+          </a>
           <img src="../../img/breakfastSmall.jpg" alt="">
        </div>
        <div class="prev_post-text">
@@ -197,11 +206,11 @@
              <h5>The most popular recipes!</h5>
            </div>
            <div class="rel_posts-item">
-              <img src="../../img/freddo.jpg" alt="">
+              <img src="../../img/freddoSmall.jpg" alt="">
               <h5>Freddo or Caldo?</h5>
             </div>
             <div class="rel_posts-item">
-                <img src="../../img/cattle.jpg" alt="">
+                <img src="../../img/cattleSmall.jpg" alt="">
                 <h5>How about tea?</h5>
               </div>
        </div>
