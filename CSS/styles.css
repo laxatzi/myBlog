@@ -180,8 +180,6 @@ blockquote:before {
 .rel_posts img {
   border: 1px solid transparent;
   border-radius: 25px;
-  max-width: 300px;
-  height: auto;
 
 }
 /* Container */
@@ -545,15 +543,22 @@ article {
 /* MEDIA @ 935px */
 @media screen and (max-width: 935px) {
   .related {
-    border: 1px solid red;
     width: 80%;
     padding: 0 5px;
     margin-bottom: 25px;
     text-align: center;
     }
   
+  .related h5,
+  .related h4 {
+     text-align: left; 
+     margin-left: 3%;
+  }
   .related h5 {
     font-size: 70%;
+  }
+  .rel_posts-item {
+    padding-bottom: 30px;
   }
     /* Nav Menu */
     .nav-menu {
@@ -643,6 +648,9 @@ article {
     color: #ededed;
     font-size:  10rem; 
     top: 50px;
+  }
+  .related h5 {
+    font-size: 100%;
   }
   .rel_posts {
     flex-direction: column;
