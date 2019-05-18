@@ -213,13 +213,13 @@ blockquote:before {
     padding: 0;
   }
 
-  .nav-menu a {
+  .nav-menu li {
     padding: 0;
     margin-right: 15px;
     font-size: 1.65rem;
   }
 
-  .nav-menu a:last-child{
+  .nav-menu li:last-child{
     margin-right: 0;
   }
   /* Nav Social */
