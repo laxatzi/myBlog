@@ -700,7 +700,7 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   .nav-menu a {
     margin-right: 0;
@@ -710,9 +710,6 @@ article {
     padding-bottom: 10px;
   }
 
-  .nav-social a {
-    font-size: 110%;
-  }
   .input-group {
     padding: 10px 0;
   }
