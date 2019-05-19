@@ -503,10 +503,10 @@ article {
           margin: 0;
           padding: 0;
         }
-        .upper__footer-two .nav-menu a {
+        .upper__footer-two .nav-menu li {
           padding-top: 1rem;
         }
-        .upper__footer-two .nav-menu a:first-of-type {
+        .upper__footer-two .nav-menu li:first-of-type {
           padding-top: 0;
         }
     /* Upper footer 3 */
