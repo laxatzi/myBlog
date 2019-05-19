@@ -20,6 +20,11 @@
      .img-section  {
         margin-bottom: 25px;
      }
+     .dropdown_ul ul{
+       display: none;
+       flex-direction: column;
+     } 
+     
 
    @media screen and (max-width: 500px) {
       h1 {
@@ -46,11 +51,6 @@
     <nav id="navbar">
       <div class="nav-menu">
         <ul>
-            <!-- <li class="nav-menu--item">
-                <a href="#home">
-                   Home
-                </a>
-              </li> -->
           <li class="nav-menu--item">
             <a href="index.html">
               Home
@@ -59,14 +59,15 @@
           <li class="nav-menu--item">
              <a href="#posts">
                 Posts
-                <div>
-                  <ul class="dropdown_ul">
+             </a>
+                <div class="dropdown_ul">
+                  <ul>
                     <li><a href="#">Category 1</a></li>
                     <li><a href="#">Category 2</a></li>
                     <li><a href="#">Category 3</a></li>
                   </ul>
                 </div>
-             </a>
+
           </li>
           <li class="nav-menu--item">
             <a href="#about">

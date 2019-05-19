@@ -222,6 +222,11 @@ blockquote:before {
   .nav-menu li:last-child{
     margin-right: 0;
   }
+ 
+  .dropdown_ul li {
+    padding: 5px 0;
+  }
+
   /* Nav Social */
   .nav-social {
     flex: 2;
