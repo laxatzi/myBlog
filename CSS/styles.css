@@ -267,7 +267,7 @@ blockquote:before {
   -o-transform: translate(0);
 }
 .overlay-btn {
-  padding: 10px;
+  padding: 5px;
   font-size: 90%;
   background-color: transparent;
   border: 2px solid var(--colorBgMain);
