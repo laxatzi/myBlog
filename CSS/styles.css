@@ -225,10 +225,10 @@ blockquote:before {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid red;
-  padding: 5px;
+  padding: 2px;
 }
 .work-item {
-  margin: 5px;
+  margin: 2px;
 }
 
 /* Container */
