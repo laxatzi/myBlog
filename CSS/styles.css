@@ -717,24 +717,16 @@ article {
   .nav-menu li {
     padding-bottom: 10px;
   }
-  .dropdown_ul {
-    border: 1px solid purple;
-  }
+
   .dropdown_ul ul {
     justify-content: center;
     align-items: flex-end;
-    border: 1px solid red;
     margin-left: 25px;
   }
   .dropdown_ul ul li{
-    border: 1px solid green;
     margin-right: 0;
    }
-  .dropdown_ul ul li a {
-    margin: 0;
-    padding: 0;
-    border: 1px solid blue;
-  }
+
   .input-group {
     padding: 10px 0;
   }
