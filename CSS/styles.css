@@ -224,8 +224,10 @@ blockquote:before {
 #work {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
+  align-items: center;
+  justify-content: center;
   padding: 2px;
+  margin-bottom: 5rem;
 }
 .work-item {
   margin: 2px;
