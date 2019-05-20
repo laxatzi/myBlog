@@ -226,7 +226,10 @@ blockquote:before {
   .dropdown_ul li {
     padding: 5px 0;
   }
-
+  .dropdown_ul ul {
+    display: none;
+    flex-direction: column;
+  } 
   /* Nav Social */
   .nav-social {
     flex: 2;
@@ -640,7 +643,7 @@ article {
 }
 
 /* MEDIA @ 752px */
-@media screen and (max-width: 752px) {
+@media screen and (max-width: 800px) {
   /* Basic styles */
   h1 {
     font-size: 3.6rem;
@@ -714,7 +717,24 @@ article {
   .nav-menu li {
     padding-bottom: 10px;
   }
-
+  .dropdown_ul {
+    border: 1px solid purple;
+  }
+  .dropdown_ul ul {
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid red;
+    margin-left: 25px;
+  }
+  .dropdown_ul ul li{
+    border: 1px solid green;
+    margin-right: 0;
+   }
+  .dropdown_ul ul li a {
+    margin: 0;
+    padding: 0;
+    border: 1px solid blue;
+  }
   .input-group {
     padding: 10px 0;
   }
