@@ -187,12 +187,13 @@ blockquote:before {
   display: flex;
   flex-direction: column;
   width: 80%;
+  max-width: 550px;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 2rem 7rem;
+  padding: 2rem;
 }
 .contact-form input,
 .contact-form textarea {
