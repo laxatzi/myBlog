@@ -230,6 +230,7 @@ blockquote:before {
     display: none;
     flex-direction: column;
   } 
+
   /* Nav Social */
   .nav-social {
     flex: 2;
