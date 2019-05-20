@@ -220,6 +220,12 @@ blockquote:before {
   color: var(--colorBgMain);
   background-color: rgb(202, 120, 31);
 }
+/* work  */
+#work {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
 /* Container */
 .container {
   display: flex;
@@ -227,6 +233,7 @@ blockquote:before {
   justify-content: center;
   min-width: 350px;
 }
+
 /* NAV */
 
 #navbar  {
