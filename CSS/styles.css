@@ -230,6 +230,7 @@ blockquote:before {
 .work-item {
   margin: 5px;
 }
+
 /* Container */
 .container {
   display: flex;
