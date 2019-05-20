@@ -185,30 +185,38 @@ blockquote:before {
 #form-section {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   width: 50%;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 5rem 7rem;
-  border: 1px solid red;
-
+  padding: 2rem 7rem;
 }
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   min-width: 250px;
   padding: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border: 1px solid var(--colorSecond);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  font-size: 1.5rem;
+  font-size: 90%;
+}
+.contact-form input.submit-btn {
+  background-color: var(--colorDistinct);
+  border-color: var(--colorDistinct);
+  padding: 10px;
+  text-align: center;
+}
+.contact-form input.submit-btn:focus,
+.contact-form input.submit-btn:hover {
+  color: var(--colorBgMain);
+  background-color: rgb(202, 120, 31);
 }
 /* Container */
 .container {
