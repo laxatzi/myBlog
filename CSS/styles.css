@@ -247,11 +247,11 @@ blockquote:before {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: var(--colorMain);
 }
 
 .work-item:hover .overlay {
-  opacity: 1;
+  opacity: .8;
 }
 
 .overlay_text {
@@ -265,7 +265,6 @@ blockquote:before {
   -moz-transform: translate(0);
   -ms-transform: translate(0);
   -o-transform: translate(0);
-  border: 1px solid red;
 }
 .work_img {
   display: block;
