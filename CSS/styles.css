@@ -181,6 +181,25 @@ blockquote:before {
   border-radius: 25px;
 
 }
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+
+}
+#form-section  {
+  border: 1px solid red;
+  width: 50%;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 7rem;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
 /* Container */
 .container {
   display: flex;
@@ -676,6 +695,7 @@ article {
     order: 1;
     align-items: flex-start;
   }
+
   /* Navbar */
   #navbar {
     flex-direction: column;
