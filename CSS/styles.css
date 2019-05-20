@@ -247,7 +247,7 @@ blockquote:before {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: var(--colorMain);
+  background-color: var(--colorDistinct);
 }
 
 .work-item:hover .overlay {
@@ -266,6 +266,32 @@ blockquote:before {
   -ms-transform: translate(0);
   -o-transform: translate(0);
 }
+.overlay-btn {
+  padding: 10px;
+  font-size: 90%;
+  background-color: transparent;
+  border: 2px solid var(--colorBgMain);
+  margin: 10px auto;
+  display: block;
+  width: 33%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.overlay-btn a {
+  color: var(--colorBgMain);
+}
+.overlay-btn:hover a,
+.overlay-btn:focus a {
+  color: var(--colorMain);
+}
+.overlay-btn:focus,
+.overlay-btn:hover {
+  border-color: var(--colorMain);
+}
+.overlay-
 .work_img {
   display: block;
   width: 100%;
