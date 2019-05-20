@@ -225,6 +225,10 @@ blockquote:before {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid red;
+  padding: 5px;
+}
+.work-item {
+  margin: 5px;
 }
 /* Container */
 .container {
