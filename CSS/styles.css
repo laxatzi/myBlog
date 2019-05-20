@@ -182,10 +182,11 @@ blockquote:before {
 
 }
 
+/* Form */
 #form-section {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
 }
 
 .contact-form {
