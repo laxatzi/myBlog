@@ -343,12 +343,14 @@ blockquote:before {
  
   .dropdown_ul li {
     padding: 5px 0;
+    margin-right: 0;
   }
+
   .dropdown_ul ul {
     display: none;
     flex-direction: column;
   } 
-
+ 
   /* Nav Social */
   .nav-social {
     flex: 2;
