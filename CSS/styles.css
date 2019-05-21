@@ -157,6 +157,7 @@ blockquote:before {
 .prev_post p {
   flex: 6;
 }
+
 .author_text,
 .author_img  {
   padding: 0;
