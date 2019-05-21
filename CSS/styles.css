@@ -199,7 +199,7 @@ blockquote:before {
 .contact-form textarea {
   width: 100%;
   min-width: 250px;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 10px;
   border: 1px solid var(--colorSecond);
   border-radius: 20px;
@@ -812,7 +812,6 @@ article {
     order: 1;
     align-items: flex-start;
   }
-
   /* Navbar */
   #navbar {
     flex-direction: column;
