@@ -350,7 +350,19 @@ blockquote:before {
     display: none;
     flex-direction: column;
   } 
- 
+  .dropdown_ul {
+    position: relative;
+  }
+ .nav-menu--item:hover .dropdown_ul ul {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100px;
+   z-index: 2;         /* add the 3 following properties to create a sense of layer on top of the menubar */
+   background-color: var(--colorBgMain);
+   padding-top: 10px; 
+ }
   /* Nav Social */
   .nav-social {
     flex: 2;
