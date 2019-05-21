@@ -350,10 +350,13 @@ blockquote:before {
     display: none;
     flex-direction: column;
   } 
+
   .dropdown_ul {
     position: relative;
   }
- .nav-menu--item:hover .dropdown_ul ul {
+
+ .nav-menu--item:hover .dropdown_ul ul,
+ .nav-menu--item:focus .dropdown_ul ul {
    display: block;
    position: absolute;
    top: 0;
@@ -363,6 +366,7 @@ blockquote:before {
    background-color: var(--colorBgMain);
    padding-top: 10px; 
  }
+
   /* Nav Social */
   .nav-social {
     flex: 2;
@@ -851,14 +855,18 @@ article {
   .nav-menu li {
     padding-bottom: 10px;
   }
-
   .dropdown_ul ul {
     justify-content: center;
     align-items: flex-end;
     margin-left: 25px;
-  }
+    display: none;
+    }
   .dropdown_ul ul li{
     margin-right: 0;
+   }
+   .nav-menu--item:hover .dropdown_ul ul,
+   .nav-menu--item:focus .dropdown_ul ul {
+     position: relative; 
    }
 
   .input-group {
